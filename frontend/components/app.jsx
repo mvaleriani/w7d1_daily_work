@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoListContainer
+import TodoListContainer from './todos/todo_list_container';
+import TodoForm from './todos/todo_form';
 
 const App = () => (
   <div>
-    <h1>Inside of APP</h1>
+    <TodoListContainer />
   </div>
 );
 
